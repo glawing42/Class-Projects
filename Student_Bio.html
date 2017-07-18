@@ -3,27 +3,91 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Student Bio</title>
+
+<style>
+	
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+		
+</style>
 </head>
+
+
 <body>
-<section>
 <header>
 <strong><h1>Student Bio</h1></strong>
 </header>
 
-<h2>Graham Lawing</h2>
-
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMaAAAAJGUxYzNkYzlhLTliYTctNGE3MS04NDU2LWQxNmM4MDUwMWVmZg.jpg">
+<div class="container">
+	<section id="main-bio">
+		<h2>Graham Lawing</h2>
+<img id="bio-image" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMaAAAAJGUxYzNkYzlhLTliYTctNGE3MS04NDU2LWQxNmM4MDUwMWVmZg.jpg" alt="Graham Lawing" width="25%">
 <p>I graduated from Catawba College in 2013 with a Sport managemnet degree. I started to get interested in web design so taking this class will help me futher my career.</p>
 </section>
 
-<section>
-<h1>Contact Info</h1>
+<section id="contact-info">
+<h3>Contact Info</h3>
 <ul>
 	<li>Email:<a href="graham.lawing@gmail.com">graham.lawing@gmail.com</a></li>
 	<li>Github:<a href="https://github.com/glawing42">glawing42</a></li>
 	<li>Portfolio<a href="#">Coming Soon</a></li>
 </ul>
 </section>
+</div>
 	
 </body>
 </html>
